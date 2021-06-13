@@ -38,6 +38,7 @@ button {
   border-radius: var(--spacing-nano);
   color: var(--body-background);
   box-shadow: 0 0 4px rgba(0, 0, 0, .3);
+  cursor: pointer;
 
   &:disabled {
     color: hsl(0, 0%, 60%);

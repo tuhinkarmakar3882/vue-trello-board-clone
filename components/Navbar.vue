@@ -1,12 +1,14 @@
 <template>
   <div class="nav-bar-component">
     <i class="mdi mdi-vuejs mdi-36px" />
-    <h2>Nuxt Board</h2>
+    <h2>Board Master</h2>
 
-    <button class="primary-button">
-      Find Me
-      <i class="mdi mdi-linkedin mdi-18px" />
-    </button>
+    <a href="https://www.linkedin.com/in/tuhinkarmakar3882/" target="_blank">
+      <button class="primary-button">
+        Find Me
+        <i class="mdi mdi-linkedin mdi-18px" />
+      </button>
+    </a>
   </div>
 </template>
 
