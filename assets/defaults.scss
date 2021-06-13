@@ -36,7 +36,7 @@ button {
   border: none;
   outline-color: var(--heading-color);
   border-radius: var(--spacing-nano);
-  color: var(--heading-color);
+  color: var(--body-background);
   box-shadow: 0 0 4px rgba(0, 0, 0, .3);
 
   &:disabled {

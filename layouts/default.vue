@@ -1,13 +1,27 @@
 <template>
   <div class="default-layout">
-    <Nuxt />
+    <Navbar />
+
+    <main>
+      <Nuxt />
+    </main>
   </div>
 </template>
+
+<script>
+import Navbar from '~/components/Navbar'
+
+export default {
+  components: {
+    Navbar,
+  },
+}
+</script>
 
 <style lang="scss" scoped>
 .default-layout {
   display: grid;
-  place-items: center;
+  grid-template-rows: auto 1fr;
   min-height: 100vh;
 }
 </style>
