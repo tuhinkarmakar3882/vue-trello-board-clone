@@ -1,0 +1,23 @@
+:root {
+  --spacing-large: 3.5rem;
+  --spacing-medium: 2rem;
+  --spacing-standard: 1rem;
+  --spacing-micro: 0.5rem;
+  --spacing-nano: 0.25rem;
+  --heading-font: 'Lora', serif;;
+  --body-font: 'Quicksand', sans-serif;
+  --heading-color: hsl(0, 0%, 0%);
+  --body-color: hsl(0, 0%, 24%);
+  --body-background: hsl(0, 0%, 100%);
+  --body-background-alternate: hsl(0, 0%, 88%);
+  --primary-color: hsl(263, 74%, 39%);
+  --primary-color-light: hsl(263, 74%, 50%);
+  --secondary-color: hsl(315, 100%, 37%);
+  --secondary-color-light: hsl(315, 100%, 50%);
+  --danger-color: hsl(341, 94%, 57%);
+  --danger-color-light: hsl(341, 94%, 70%);
+  --warning-color: hsl(14, 100%, 65%);
+  --warning-color-light: hsl(14, 100%, 78%);
+  --success-color: hsl(171, 100%, 37%);
+  --success-color-light: hsl(171, 100%, 50%);
+}

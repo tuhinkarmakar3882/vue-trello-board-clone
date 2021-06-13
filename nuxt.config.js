@@ -17,7 +17,7 @@ export default {
       },
     ],
   },
-  css: ['assets/global.scss'],
+  css: ['styles/main.scss'],
   plugins: [],
   components: true,
   buildModules: ['@nuxtjs/eslint-module', '@nuxtjs/stylelint-module'],
