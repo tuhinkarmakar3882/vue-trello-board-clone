@@ -1,6 +1,6 @@
 <template>
   <div class="index-page">
-    <Modal>
+    <Modal v-if="!ready">
       <template #header>
         <h2>Get Started</h2>
       </template>
@@ -12,12 +12,15 @@
           <button
             :disabled="!columnSize"
             :class="columnSize && 'primary-button'"
+            @click="ready = true"
           >
             Proceed
           </button>
         </section>
       </template>
     </Modal>
+
+    <div v-else>Do something</div>
   </div>
 </template>
 
@@ -31,6 +34,7 @@ export default {
   data() {
     return {
       columnSize: null,
+      ready: false,
     }
   },
 }
