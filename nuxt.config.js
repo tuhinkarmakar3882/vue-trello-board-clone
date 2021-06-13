@@ -15,6 +15,10 @@ export default {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css2?family=Lora&family=Quicksand:wght@300;400&display=swap',
       },
+      {
+        rel: 'stylesheet',
+        href: 'https://cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css',
+      },
     ],
   },
   css: ['styles/main.scss'],

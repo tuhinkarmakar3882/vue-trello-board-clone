@@ -7,6 +7,7 @@
 
 html, body {
   background: var(--body-background);
+  font-family: var(--body-font);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -22,6 +23,11 @@ p, span, small {
   font-family: var(--body-font);
   line-height: 1.75;
   letter-spacing: 1px;
+}
+
+a {
+  font-weight: 900;
+  color: var(--primary-color);
 }
 
 button {
