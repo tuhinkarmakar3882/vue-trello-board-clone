@@ -3,6 +3,11 @@
   padding: 0;
   box-sizing: border-box;
   transition: all 200ms ease-in-out;
+  -webkit-tap-highlight-color: transparent;
+
+  @media (prefers-reduced-motion) {
+    transition: unset !important;
+  }
 }
 
 html, body {
@@ -56,3 +61,10 @@ button {
   }
 }
 
+input {
+  display: inline-block;
+  padding: var(--spacing-micro) var(--spacing-standard);
+  border: 1px solid hsl(0, 0%, 64%);
+  border-radius: var(--spacing-nano);
+  margin: 1rem 0;
+}
